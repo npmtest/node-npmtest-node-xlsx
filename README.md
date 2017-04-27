@@ -1,6 +1,6 @@
 # npmtest-node-xlsx
 
-#### test coverage for  [node-xlsx (v0.7.4)](https://github.com/mgcrea/node-xlsx#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-xlsx.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-xlsx) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-xlsx.svg)](https://travis-ci.org/npmtest/node-npmtest-node-xlsx)
+#### basic test coverage for  [node-xlsx (v0.7.4)](https://github.com/mgcrea/node-xlsx#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-xlsx.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-xlsx) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-xlsx.svg)](https://travis-ci.org/npmtest/node-npmtest-node-xlsx)
 
 #### NodeJS Excel files parser & builder
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-xlsx/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-xlsx/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-xlsx/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-xlsx/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-xlsx/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-xlsx/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-xlsx/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-xlsx/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-xlsx/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-xlsx/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-xlsx/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-xlsx/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "test:coverage": "nyc --reporter=lcov npm test -- --reporter dot && nyc report",
         "test:watch": "npm run test -- --watch"
     },
-    "version": "0.7.4"
+    "version": "0.7.4",
+    "bin": {}
 }
 ```
 
